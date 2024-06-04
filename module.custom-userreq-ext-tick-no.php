@@ -9,14 +9,14 @@ SetupWebPage::AddModule(
 	array(
 		// Identification
 		//
-		'label' => 'Incident - External Ticket Number',
+		'label' => 'Incident - cost',
 		'category' => 'business',
 
 		// Setup
 		//
 		'dependencies' => array(
-			'itop-tickets/2.4.0',
-			'itop-request-mgmt/2.4.0',
+			'itop-request-mgmt-itil/2.4.0',
+     		'itop-incident-mgmt-itil/2.4.0'
 		),
 		'mandatory' => false,
 		'visible' => true,

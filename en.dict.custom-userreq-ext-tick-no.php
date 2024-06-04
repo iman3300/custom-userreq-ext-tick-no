@@ -8,12 +8,7 @@
 
 Dict::Add('EN US', 'English', 'English', array(
 	// Dictionary entries go here
-	'Class:UserRequest/Attribute:ext_ticket_no' => 'External Ticket-No.',
-));
-
-Dict::Add('DE DE', 'German', 'Deutsch', array(
-	// Dictionary entries go here
-	'Class:UserRequest/Attribute:ext_ticket_no' => 'Fremd-Ticket Nr.',
+	'Class:Incident/Attribute:cost' => 'cost',
 ));
 
 ?>
