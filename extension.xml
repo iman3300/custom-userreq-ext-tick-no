@@ -2,7 +2,7 @@
 <extension format="1.0">
   <extension_code>custom-userreq-ext-tick-no</extension_code>
   <version>1.0.0</version>
-  <label><![CDATA[User Request - External Ticket Number]]></label>
+  <label><![CDATA[Incident  - External Ticket Number]]></label>
   <description><![CDATA[Put here a longer description of your extension]]></description>
   <mandatory>false</mandatory>
   <more_info_url></more_info_url>

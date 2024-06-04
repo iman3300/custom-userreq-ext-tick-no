@@ -9,7 +9,7 @@ SetupWebPage::AddModule(
 	array(
 		// Identification
 		//
-		'label' => 'User Request - External Ticket Number',
+		'label' => 'Incident - External Ticket Number',
 		'category' => 'business',
 
 		// Setup
