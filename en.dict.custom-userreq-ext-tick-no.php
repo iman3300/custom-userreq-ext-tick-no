@@ -8,7 +8,8 @@
 
 Dict::Add('EN US', 'English', 'English', array(
 	// Dictionary entries go here
-	'Class:Incident/Attribute:cost' => 'cost',
+	'Class:Incident/Attribute:cost' => 'Cost',
+	'Class:Incident/Attribute:test' => 'Quotation'
 ));
 
 ?>
