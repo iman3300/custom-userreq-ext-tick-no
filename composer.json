@@ -1,0 +1,16 @@
+{
+  "config": {
+    "classmap-authoritative": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Zwettler\\iTop\\Extension\\": "src"
+    }
+  },
+  "name": "zwettler/custom-userreq-ext-tick-no",
+  "type": "itop-extension",
+  "description": "User Request - External Ticket Number",
+  "require": {
+    "composer-runtime-api": "^2.0"
+  }
+}

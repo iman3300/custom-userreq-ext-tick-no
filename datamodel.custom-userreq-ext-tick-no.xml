@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0">
+    <classes>
+        <class id="UserRequest"> 
+            <parent>Ticket</parent>
+            <properties>
+                <comment><![CDATA[/**
+ * Persistent classes for a CMDB
+ *
+ * @copyright   Copyright (C) 201022-2099 Guenther Huber
+ * @license     http://opensource.org/licenses/AGPL-3.0
+ */]]></comment>
+                <category>bizmodel,searchable,requestmgmt</category>
+                <abstract>false</abstract>
+                <key_type>autoincrement</key_type>
+                <db_table>ticket_request</db_table>
+
+            </properties>
+            <fields>
+                
+				<field id="ext_ticket_no" xsi:type="AttributeString" _delta="define">
+                    <sql>ext_ticket_no</sql>
+					<default_value/>
+					<is_null_allowed>true</is_null_allowed>
+					<always_load_in_tables>true</always_load_in_tables>
+                </field>
+          
+            </fields>
+       
+            
+            <presentation>
+                <details>
+                    <items>
+     
+  
+                        <item id="col:col1">
+                            <rank>50</rank>
+                            <items>
+                                <item id="fieldset:Ticket:baseinfo">
+                                    <rank>10</rank>
+                                    <items>
+                                     
+										<item id="ext_ticket_no">
+                                            <rank>55</rank>
+                                        </item>
+                                       
+                                    </items>
+                                </item>
+                                
+                            </items>
+                        </item>
+						
+						
+					</items>
+                </details>
+                
+				
+				<search>
+                    <items>
+                        
+                        <item id="ext_ticket_no">
+                            <rank>35</rank>
+                        </item>						
+						
+                       
+                    </items>
+                </search>
+                <list>
+                    <items>
+
+						<item id="ext_ticket_no">
+                            <rank>15</rank>
+                        </item>
+                        
+                    </items>
+                </list>
+            </presentation>
+        </class>
+        
+    </classes>
+</itop_design>
