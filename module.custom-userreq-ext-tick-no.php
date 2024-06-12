@@ -5,7 +5,7 @@
 
 SetupWebPage::AddModule(
 	__FILE__, // Path to the current file, all other file names are relative to the directory containing this file
-	'custom-userreq-ext-tick-no/1.0.0',
+	'incident_cost_quotation_status_field/1.0.0',
 	array(
 		// Identification
 		//

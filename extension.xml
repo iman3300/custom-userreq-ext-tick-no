@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension format="1.0">
-  <extension_code>custom-userreq-ext-tick-no</extension_code>
+  <extension_code>incident_cost_quotation_status_field</extension_code>
   <version>1.0.0</version>
-  <label><![CDATA[Incident  - cost]]></label>
-  <description><![CDATA[cost field]]></description>
+  <label><![CDATA[Incident  - cost/quotation/status]]></label>
+  <description><![CDATA[custom field for incident cost/quotation/status Created by nuriman3300@gmail.com]]></description>
   <mandatory>false</mandatory>
   <more_info_url></more_info_url>
 </extension>
