@@ -36,7 +36,7 @@
                     <target_display_field>display_name</target_display_field>
                     <target_attcode>status_code</target_attcode>
                     <target_attcode_display>display_name</target_attcode_display>
-                    
+                    <extkey_attcode>external_key</extkey_attcode>
                     <always_load_in_tables>true</always_load_in_tables>
                 </field>
 
