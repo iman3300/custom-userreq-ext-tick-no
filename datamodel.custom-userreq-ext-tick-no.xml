@@ -30,16 +30,15 @@
                 </field>
                 <field id="statuss" xsi:type="AttributeExternalField" _delta="define">
                     <sql>statuss</sql>
-                    <default_value>optional</default_value>
+                    <default_value/>
                     <is_null_allowed>true</is_null_allowed>
-                    <values>
-                        <value code="optional">-Optional-</value>
-                        <value code="pending_budget_approval">Pending Budget Approval</value>
-                        <value code="budget_approval">Budget Approval</value>
-                        <value code="rejected">Rejected</value>
-                    </values>
+                    <target_class>optional</target_class>
+                    <target_display_field>pending_budget_approval</target_display_field>
+                    <target_attcode>budget_approval</target_attcode>
+                    <target_attcode_display>Rejected</target_attcode_display>
                     <always_load_in_tables>true</always_load_in_tables>
                 </field>
+
             </fields>
             <presentation>
                 <details>
