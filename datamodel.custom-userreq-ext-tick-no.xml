@@ -32,12 +32,14 @@
                     <sql>statuss</sql>
                     <default_value/>
                     <is_null_allowed>true</is_null_allowed>
-                    <target_class>optional</target_class>
-                    <target_display_field>pending_budget_approval</target_display_field>
-                    <target_attcode>budget_approval</target_attcode>
-                    <target_attcode_display>Rejected</target_attcode_display>
+                    <target_class>ExternalStatusClass</target_class>
+                    <target_display_field>display_name</target_display_field>
+                    <target_attcode>status_code</target_attcode>
+                    <target_attcode_display>display_name</target_attcode_display>
+                    <extkey_attcode>external_key</extkey_attcode>
                     <always_load_in_tables>true</always_load_in_tables>
                 </field>
+
 
             </fields>
             <presentation>
